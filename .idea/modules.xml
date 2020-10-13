@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/scolarite/scolarite/ms-bourse/ms-bourse.iml" filepath="$USER_HOME$/Downloads/scolarite/scolarite/ms-bourse/ms-bourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-enseignement/ms-enseignement.iml" filepath="$PROJECT_DIR$/ms-enseignement/ms-enseignement.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/ms-examen/ms-examen/ms-examen.iml" filepath="$USER_HOME$/Downloads/ms-examen/ms-examen/ms-examen.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Projet/Projet/ms-inscription/ms-inscription.iml" filepath="$USER_HOME$/Downloads/Projet/Projet/ms-inscription/ms-inscription.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-registry/ms-registry.iml" filepath="$PROJECT_DIR$/ms-registry/ms-registry.iml" />
+    </modules>
+  </component>
+</project>

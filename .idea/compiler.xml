@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ms-registry" />
+        <module name="ms-bourse" />
+        <module name="ms-enseignement" />
+        <module name="ms-examen" />
+        <module name="ms-inscription" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-bourse" target="1.8" />
+      <module name="ms-enseignement" target="1.8" />
+      <module name="ms-examen" target="1.8" />
+      <module name="ms-inscription" target="1.8" />
+      <module name="ms-registry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-bourse" options="-parameters" />
+      <module name="ms-enseignement" options="-parameters" />
+      <module name="ms-examen" options="-parameters" />
+      <module name="ms-inscription" options="-parameters" />
+      <module name="ms-registry" options="-parameters" />
+    </option>
+  </component>
+</project>
