@@ -1,12 +1,16 @@
 package com.esi.demo.entities;
-import com.esi.demo.model.EtudiantBourse;
-import com.esi.demo.model.EtudiantExamen;
+
+import com.esi.demo.model.EtudiantNote;
+import com.esi.demo.model.EtudiantVirement;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
+
 @Entity
 @Data @AllArgsConstructor @NoArgsConstructor
 public class Etudiant {
@@ -23,14 +27,16 @@ public class Etudiant {
 
     private String sexe;
 
-
+    @JsonBackReference
     @ManyToOne
     private Groupe groupe;
 
     @Transient
-    EtudiantBourse etudiantBourse;
+    List<EtudiantVirement> virements;
+
     @Transient
-    EtudiantExamen etudiantExamen;
+    List<EtudiantNote> notes;
+
 
 
 

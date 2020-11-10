@@ -1,5 +1,6 @@
 package com.esi.msenseignement.entities;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,7 +20,8 @@ public class Seance {
     private String jour;
    private String heureD;
    private String heureF;
-   @ManyToOne
+    @JsonBackReference
+    @ManyToOne
     private Module module;
 
 }

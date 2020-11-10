@@ -1,6 +1,8 @@
 package com.esi.demo.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import net.minidev.json.annotate.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,10 +21,11 @@ public class Groupe {
     private String nom;
     private int capacite;
 
-    @JsonIgnore
+    @JsonManagedReference
     @OneToMany(mappedBy = "groupe")
     private Collection<Etudiant> LesEtudiants;
 
+    @JsonBackReference
     @ManyToOne
     private Niveau niveau;
 

@@ -1,0 +1,49 @@
+.yml:
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: route1
+          predicates:
+            - Path=/service-bourse/**
+          filters:
+            - RewritePath=/service-bourse/(?<s>.*), /${s}
+            - name: CircuitBreaker
+              args:
+                name: fallbck-msbourse
+                fallbackuri: forward:/defaultBourse
+          uri: lb://ms-bourse
+
+        - id: route2
+          predicates:
+            - Path=/inscription/**
+          filters:
+            - RewritePath=/inscription/(?<s>.*), /${s}
+            - name: CircuitBreaker
+              args:
+                name: fallbck-msinscription
+                fallbackuri: forward:/defaultInscription
+          uri: lb://ms-inscription
+
+        - id: route3
+          predicates:
+            - Path=/service-examen/**
+          filters:
+            - RewritePath=/service-examen/(?<s>.*), /${s}
+            - name: CircuitBreaker
+              args:
+               name: fallbck-msexamen
+               fallbackuri: forward:/defaultExamen
+          uri: lb://ms-examen
+
+        - id: route4
+          predicates:
+            - Path=/service-enseignement/**
+          filters:
+            - RewritePath=/service-enseignement/(?<s>.*), /${s}
+            - name: CircuitBreaker
+              args:
+                name: fallbck-msenseignement
+                fallbackuri: forward:/defaultEnseignement
+          uri: lb://ms-enseignement
+

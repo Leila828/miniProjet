@@ -30,14 +30,23 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ms-enseignement/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-registry/pom.xml" />
         <option value="$USER_HOME$/Downloads/Projet/Projet/ms-inscription/pom.xml" />
         <option value="$USER_HOME$/Downloads/scolarite/scolarite/ms-bourse/pom.xml" />
         <option value="$USER_HOME$/Downloads/ms-examen/ms-examen/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-bourse/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-inscription/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-examen/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/core-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-config/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-command-bourse/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-query-bourse/pom.xml" />
+        <option value="$PROJECT_DIR$/dashboard/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

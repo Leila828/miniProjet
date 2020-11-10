@@ -11,12 +11,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 import java.sql.Date;
 
 @SpringBootApplication
 @EnableFeignClients
+@EnableCircuitBreaker
 public class DemoApplication implements CommandLineRunner {
 	@Autowired
 	EtudiantRepository etudiantRepository;
@@ -27,12 +30,15 @@ public class DemoApplication implements CommandLineRunner {
 	@Autowired
 	NiveauRepository niveauRepository;
 
+	@Autowired
+	RepositoryRestConfiguration repositoryRestConfiguration;
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);}
 
-		@Override
+	@Override
 		public void run (String...args) throws Exception {
+
 
 			Niveau n1 = niveauRepository.save(new Niveau(null, "Prépa", null));
 			Niveau n2 = niveauRepository.save(new Niveau(null, "CS", null));

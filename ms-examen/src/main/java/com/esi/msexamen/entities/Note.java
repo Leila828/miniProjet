@@ -15,6 +15,7 @@ public class Note {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idNote;
+    private int note;
      @OneToOne
     private Examen examen;
      @ManyToOne

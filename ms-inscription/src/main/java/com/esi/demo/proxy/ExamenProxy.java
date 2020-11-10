@@ -1,15 +1,16 @@
 package com.esi.demo.proxy;
 
-import com.esi.demo.model.EtudiantExamen;
+import com.esi.demo.model.EtudiantNote;
+import com.esi.demo.model.EtudiantVirement;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.hateoas.CollectionModel;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "ms-examen", url = "localhost:8082")
-public interface ExamenProxy {
+@FeignClient(name="ms-examen", fallback = ExamenFallBack.class)
+@RibbonClient(name = "ms-examen")
 
-    @GetMapping("/etudiants/{id}")
-    EtudiantExamen getEtudiantExamen(@PathVariable("id") Long id,
-                                        @RequestParam("projection") String projection);
-}
+public interface ExamenProxy {
+    @GetMapping("/notes/search/findNotesByEtudiant_IdEtudiant")
+    public CollectionModel<EtudiantNote> getNotes(@RequestParam("ide") Long ide);}

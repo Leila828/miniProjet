@@ -1,6 +1,8 @@
 package com.esi.msenseignement.entities;
 
 import com.esi.msenseignement.model.Examen;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,11 +22,12 @@ public class Module {
     private String nom;
     private int coeiff;
     private Long idExamen;
+    @JsonBackReference
     @ManyToOne
     private Enseignant enseignant;
+    @JsonManagedReference
     @OneToMany(mappedBy = "module")
     private Collection<Seance> seance;
-
 
 
     @Transient

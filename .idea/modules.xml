@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Downloads/scolarite/scolarite/ms-bourse/ms-bourse.iml" filepath="$USER_HOME$/Downloads/scolarite/scolarite/ms-bourse/ms-bourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-api/core-api.iml" filepath="$PROJECT_DIR$/core-api/core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-bourse/ms-bourse.iml" filepath="$PROJECT_DIR$/ms-bourse/ms-bourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-command-bourse/ms-command-bourse.iml" filepath="$PROJECT_DIR$/ms-command-bourse/ms-command-bourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-config/ms-config.iml" filepath="$PROJECT_DIR$/ms-config/ms-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-enseignement/ms-enseignement.iml" filepath="$PROJECT_DIR$/ms-enseignement/ms-enseignement.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/ms-examen/ms-examen/ms-examen.iml" filepath="$USER_HOME$/Downloads/ms-examen/ms-examen/ms-examen.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/Projet/Projet/ms-inscription/ms-inscription.iml" filepath="$USER_HOME$/Downloads/Projet/Projet/ms-inscription/ms-inscription.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-examen/ms-examen.iml" filepath="$PROJECT_DIR$/ms-examen/ms-examen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-inscription/ms-inscription.iml" filepath="$PROJECT_DIR$/ms-inscription/ms-inscription.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-query-bourse/ms-query-bourse.iml" filepath="$PROJECT_DIR$/ms-query-bourse/ms-query-bourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-registry/ms-registry.iml" filepath="$PROJECT_DIR$/ms-registry/ms-registry.iml" />
     </modules>
   </component>

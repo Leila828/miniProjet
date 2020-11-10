@@ -1,12 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06c50b71-a7d3-459e-a52c-14fa4b3a31cd" name="Default Changelist" comment="" />
+    <list default="true" id="06c50b71-a7d3-459e-a52c-14fa4b3a31cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_annotations_4_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_26_0_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_api_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_grpc_metrics_0_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_perfmark_perfmark_api_0_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_configuration_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_disruptor_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_eventsourcing_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_messaging_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_modelling_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_server_connector_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_spring_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_spring_boot_autoconfigure_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_spring_boot_starter_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway/docker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-bourse/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-enseignement/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-examen/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inscription/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/proxy/BourseFallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/dao/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/dao/EtudiantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/dao/VirementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/dao/VirementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/entities/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/entities/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/entities/Virement.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/entities/Virement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/esi/demo/model/Etudiantinsc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/MsEnseignementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/MsEnseignementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/api_controller/EnseignementAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/api_controller/EnseignementAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/dao/EnseignantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/dao/EnseignantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/dao/ModuleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/dao/ModuleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/dao/SeanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/dao/SeanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Enseignant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Enseignant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Seance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Seance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Semaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Semaine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Sexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/entities/Sexe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/model/Examen.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/model/Examen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/proxy/ExamenProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-enseignement/src/main/java/com/esi/msenseignement/proxy/ExamenProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-enseignement/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/ApiController/ExamenAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/ApiController/ExamenAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/EtudiantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/ExamenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/ExamenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/ModuleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/Dao/NoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/MsExamenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/MsExamenApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/entities/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/entities/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/entities/Examen.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/entities/Examen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/entities/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/entities/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/proxy/EnseignmentProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/java/com/esi/msexamen/proxy/EtudiantProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examen/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/api_controller/InscriptionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/api_controller/InscriptionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/dao/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/dao/EtudiantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/dao/GroupeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/dao/GroupeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/dao/NiveauRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/dao/NiveauRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Groupe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Groupe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Niveau.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Niveau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Sexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/entities/Sexe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/model/EtudiantBourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/model/EtudiantExamen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/proxy/BourseProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/proxy/BourseProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/proxy/ExamenProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-inscription/src/main/java/com/esi/demo/proxy/ExamenProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-inscription/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-registry/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/api_controller/InscriptionAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/dao/EtudiantRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/dao/GroupeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/dao/NiveauRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/entities/Etudiant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/entities/Groupe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/entities/Niveau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/entities/Sexe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/model/EtudiantBourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/model/EtudiantExamen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/model/EtudiantVirement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/proxy/BourseProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/java/com/esi/demo/proxy/ExamenProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/ms-inscription/src/test/java/com/esi/demo/DemoApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ms-enseignement" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,16 +166,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1ikDd5B1Xa6bKhLr7JqiIdcQECj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Projet/Projet/ms-inscription/src/main/java/com/esi/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ms-bourse" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,8 +206,11 @@
       <recent name="com.esi.msexamen" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\semestre2\Malki\miniProjet\ms-enseignement\ms-bourse" />
+      <recent name="C:\Users\LENOVO\Desktop\semestre2\Malki\miniProjet\ms-enseignement\ms-inscription" />
+      <recent name="C:\Users\LENOVO\Desktop\semestre2\Malki\miniProjet\ms-enseignement\ms-examen" />
+      <recent name="C:\Users\LENOVO\Desktop\semestre2\Malki\miniProjet\ms-enseignement\ms-enseignement" />
       <recent name="C:\Users\LENOVO\Downloads\Projet\Projet\ms-inscription\src\main\java\com\esi\demo" />
-      <recent name="C:\Users\LENOVO\Downloads\scolarite\scolarite\ms-bourse\src\main\java\com\esi\demo\dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,16 +230,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ms-bourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esi.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.demo.DemoApplication" />
+  <component name="RunManager" selected="Docker.ms-bourse/Dockerfile">
+    <configuration name="CloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.cloudgateway.CloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="core-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.coreapi.CoreApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.dashboard.DashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +266,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MsCommandBourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-command-bourse" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.mscommandbourse.MsCommandBourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.msconfig.MsConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsEnseignementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-enseignement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.msenseignement.MsEnseignementApplication" />
@@ -105,6 +294,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MsQueryBourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-query-bourse" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.msquerybourse.MsQueryBourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.esi.msregistry.MsRegistryApplication" />
@@ -112,36 +308,104 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ms-bourse/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="ms-bourse/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-config/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="ms-config/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-enseignement/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="ms-enseignement/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-examen/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="ms-examen/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-inscription/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="ms-inscription/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DemoApplication (1)" />
+        <item itemvalue="Docker.ms-bourse/Dockerfile" />
+        <item itemvalue="Docker.ms-inscription/Dockerfile" />
+        <item itemvalue="Docker.ms-examen/Dockerfile" />
+        <item itemvalue="Docker.ms-enseignement/Dockerfile" />
+        <item itemvalue="Docker.ms-config/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.24521858" />
+        <option name="contentProportion" value="0.23907104" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d51eb4b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5857d9b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d51eb4b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@67bf7862" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4e57cfaa" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d51eb4b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1851fe24" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d51eb4b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a885c0dd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4e57cfaa" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5ecc14a3" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -161,11 +425,39 @@
       <updated>1602442779160</updated>
       <workItem from="1602442788009" duration="4016000" />
       <workItem from="1602524882651" duration="14734000" />
-      <workItem from="1602604396286" duration="20710000" />
+      <workItem from="1602604396286" duration="22600000" />
+      <workItem from="1602679156686" duration="6819000" />
+      <workItem from="1602711003901" duration="1854000" />
+      <workItem from="1602782897036" duration="368000" />
+      <workItem from="1602783293673" duration="5930000" />
+      <workItem from="1602889727453" duration="1805000" />
+      <workItem from="1603024048798" duration="936000" />
+      <workItem from="1603025030651" duration="7195000" />
+      <workItem from="1603055555083" duration="216000" />
+      <workItem from="1604243003950" duration="407000" />
+      <workItem from="1604770299323" duration="1661000" />
+      <workItem from="1604772021884" duration="4653000" />
+      <workItem from="1604969192992" duration="7622000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

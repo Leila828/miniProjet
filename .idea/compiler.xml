@@ -6,28 +6,52 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ms-query-bourse" />
+        <module name="ms-examen" />
         <module name="ms-registry" />
+        <module name="core-api" />
         <module name="ms-bourse" />
         <module name="ms-enseignement" />
-        <module name="ms-examen" />
+        <module name="cloud-gateway" />
+        <module name="ms-config" />
+        <module name="ms-command-bourse" />
         <module name="ms-inscription" />
+        <module name="cloud-gateway (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-gateway" target="1.8" />
+      <module name="cloud-gateway (1)" target="1.8" />
+      <module name="core-api" target="1.8" />
+      <module name="dashboard" target="1.8" />
       <module name="ms-bourse" target="1.8" />
+      <module name="ms-command-bourse" target="1.8" />
+      <module name="ms-config" target="1.8" />
       <module name="ms-enseignement" target="1.8" />
+      <module name="ms-enseignement (1)" target="1.8" />
       <module name="ms-examen" target="1.8" />
       <module name="ms-inscription" target="1.8" />
+      <module name="ms-query-bourse" target="1.8" />
       <module name="ms-registry" target="1.8" />
+      <module name="ms-registry (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-gateway" options="-parameters" />
+      <module name="cloud-gateway (1)" options="-parameters" />
+      <module name="core-api" options="-parameters" />
+      <module name="dashboard" options="-parameters" />
       <module name="ms-bourse" options="-parameters" />
+      <module name="ms-command-bourse" options="-parameters" />
+      <module name="ms-config" options="-parameters" />
       <module name="ms-enseignement" options="-parameters" />
+      <module name="ms-enseignement (1)" options="-parameters" />
       <module name="ms-examen" options="-parameters" />
       <module name="ms-inscription" options="-parameters" />
+      <module name="ms-query-bourse" options="-parameters" />
       <module name="ms-registry" options="-parameters" />
+      <module name="ms-registry (1)" options="-parameters" />
     </option>
   </component>
 </project>

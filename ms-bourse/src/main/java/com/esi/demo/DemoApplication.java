@@ -33,10 +33,10 @@ VirementRepository virementRpository;
 
 		repositoryRestConfiguration.exposeIdsFor(Virement.class);
 
-		Etudiant e1= etudiantRepository.save(new Etudiant(1L,146L,40000F,true,null,null));
-		Etudiant e2=etudiantRepository.save(new Etudiant(2L,6845L,20000F,true,null,null));
-		Etudiant e3=	etudiantRepository.save(new Etudiant(3L,5456L,90000F,true,null,null));
-		Etudiant e4=	etudiantRepository.save(new Etudiant(4L,4322L,60000F,true,null,null));
+		Etudiant e1= etudiantRepository.save(new Etudiant(1L,146L,40000F,true,null));
+		Etudiant e2=etudiantRepository.save(new Etudiant(2L,6845L,20000F,true,null));
+		Etudiant e3=	etudiantRepository.save(new Etudiant(3L,5456L,90000F,true,null));
+		Etudiant e4=	etudiantRepository.save(new Etudiant(4L,4322L,60000F,true,null));
 
 		virementRpository.save(new Virement(null,4000F, Date.valueOf("2019-01-01"),e1));
 		virementRpository.save(new Virement(null,4000F, Date.valueOf("2019-04-01"),e1));

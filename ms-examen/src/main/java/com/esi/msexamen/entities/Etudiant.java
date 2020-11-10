@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -19,6 +20,6 @@ public class Etudiant {
     private Long idEtudiant;
     private float moyenne;
     @OneToMany(mappedBy = "etudiant")
-    private Collection<Note> notes;
+    List<Note> notes;
 
 }

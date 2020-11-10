@@ -1,6 +1,5 @@
 package com.esi.demo.entities;
 
-import com.esi.demo.model.Etudiantinsc;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -26,6 +25,5 @@ public class Etudiant {
     @JsonIgnore
     @OneToMany(mappedBy = "etudiant")
     List<Virement> virements;
-    @Transient
-    Etudiantinsc etudiantinsc;
+
 }
